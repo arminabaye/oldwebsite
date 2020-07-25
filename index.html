@@ -1,0 +1,233 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style>
+	body {
+  font-family: 'Roboto', medium;
+  margin-left: 0px;
+  margin-right: 0px;
+ 
+}
+
+#navbar {
+  font-family: 'Tajawal', bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: #FFD200;
+}
+
+.navItem {
+  display: block;
+  padding: 0.75em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #0064A4;
+}
+
+.navItem:hover {
+  animation-name: nav-hover;
+  animation-duration: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nav-hover {
+  100% {
+      background-color: #0064A4;
+      border-width: 2px;
+      border-color: white;
+      color: #FFD200;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-rows: 100% 50% 25%;
+  top: 0px;
+  left: 0px;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: #0064A4;
+}
+
+#abtMe {
+  background-color: #0064A4;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  font-family: 'Tajawal', bold;
+
+}
+
+#myName {
+  font-size: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: #FFD200;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: white;
+}
+#myPic {
+  margin-top: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+#desc {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  color: #F7EB5F;
+}
+
+#projects {
+  background: #6AA2B8;
+  -webkit-text-stroke-width: 0.15px;
+  -webkit-text-stroke-color: white;
+}
+
+.project-tile {
+  display: flex;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+.tile{
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Tajawal', bold;
+  text-align: center;
+  color: #FFD200;
+}
+
+.text {
+  font-family: 'Roboto', medium;
+}
+
+#contact {
+  background-color: #0064A4;
+}
+
+#cbox {
+  margin-top: 5em;
+  padding: 1em;
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.imgs {
+  display: flex;
+  margin: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+@media (max-width: 200px;) {
+  background-color: blue;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #FFD200;
+  color: #0064A4;
+  height: 9vh;
+}
+</style>
+<html>
+  <head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tajawal">
+    <title>Armin Abaye</title>
+  
+  <!-- Navbar -->
+    <nav id="navbar">
+      <a class='navItem' href="#welcome-section">About</a>
+      <a class='navItem' href="#projects">Projects</a>
+      <a class='navItem' href="#profile-link">Contact</a>
+      </nav>
+  </head>
+    
+    <!-- About Section -->
+    <div id='welcome-section'>
+      <div id='myName'>
+          <h1>Armin Abaye</h1>
+        </div>
+  </div>
+      <div id='abtMe'>
+        
+          <div id='desc'>
+            <h2>Incoming 3rd-year CS Student at UCI<br>Majoring in UI/UX and Web Design</h2>
+          </div>
+          <img id='myPic' src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/30742312_1739908136103289_9181061391953547254_n.jpg?_nc_cat=104&_nc_sid=7aed08&_nc_ohc=0K19FAnsdvkAX-mntVK&_nc_ht=scontent-lax3-1.xx&oh=d7f1234eda21afe6f1bccdea7548e8f6&oe=5F3F7A02" alt="Armin Abaye photo" width="55%" height="auto">
+      </div>
+  </div>
+    <main>
+    <!--Projects -->
+    <section id='projects'>
+      <h1 class='heading'>Personal Projects</h1>
+      <div class='project-tile'>
+        <div class='tile'>
+          <img src='https://i.ibb.co/yRfyPCV/Screen-Shot-2020-07-24-at-5-06-42-PM.png' width='600' height='auto'>
+          <h2 class='text'><a href="https://codepen.io/aabaye/pen/yLeQdev">Product Landing Page</a></h2>
+        </div>
+        <div class='tile'>
+          <img src='https://codepen.io/aabaye/pen/rNxRPYO/image/large.png' width='600' height='auto'>
+          <h2 class='text'><a href="https://codepen.io/aabaye/pen/rNxRPYO">Javascript Documentation</a></h2>
+        </div>
+        <div class='tile'>
+          <img src='https://codepen.io/aabaye/pen/qBbQNQb/image/large.png' width='600' height='auto'>
+          <h2 class='text'><a href="https://codepen.io/aabaye/pen/qBbQNQb">Avicii Tribute Page</a></h2>
+        </div>
+      </div>
+    </section>
+   
+    <!--Contact Links-->
+    <section id='contact'>
+      <h1 class='heading'>Contact Me</h1>
+      <div id='cbox'>
+        <div class='imgs'>
+          <div id='img1'>
+            <a id='profile-link' href='https://github.com/arminabaye' target='_blank'>
+              <img src='https://cdn3.iconfinder.com/data/icons/social-media-and-logos-brush/32/github_social_media_logo-512.png', alt='github' height='206' width='206'>
+            </a>
+          </div>
+          <div id='img2'>
+            <a href='https://www.linkedin.com/in/arminabaye/' target='_blank'>
+              <img src='https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png', alt='linkedin' height='206' width='206'>
+            </a>
+          </div>
+          <div id='img3'>
+            <a href='mailto:name@email.com'>
+              <img src='https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png', alt='email' height='206' width='206'>
+            </a>
+          </div>
+        </div>
+      </div>
+      </section>
+<footer>
+  <p>Armin Abaye</p>
+</footer>
+  
+          
