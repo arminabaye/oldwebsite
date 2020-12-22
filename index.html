@@ -11,10 +11,13 @@ EMAIL: aabaye@uci.edu
   <meta name="author" content="Armin Abaye">
   <meta name="description" content="Armin Abaye's Portfolio: See my work here!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>Armin Abaye's Portfolio</title>
 </head>
+
 <body>
 <div class="jumbotron text-center" style="margin-bottom: 0" id="titlebox">
   <h1 id="titleh1">Armin Abaye</h1>
@@ -40,9 +43,9 @@ EMAIL: aabaye@uci.edu
 <div class="container-fluid" id="mainpage">
   <div class="row" id="row1">
     <div class="col" id="r1c1">
-      <img id='myPic' src="https://i.imgur.com/z0aO7Jt.jpg" class="img-fluid" alt="Armin Abaye photo">
+      <img id='myPic' src="https://i.imgur.com/z0aO7Jt.jpg" class="img-fluid w-75 pl-5" alt="Armin Abaye photo">
     </div>
-    <div class="col" id="r1c2">
+    <div class="col pr-5" id="r1c2">
       <h3 class="text-center" id="abtme">About Me</h3>
       <br>
       <h4 class="text-left" id="desc">Armin Abaye is a third-year Informatics student at UC Irvine, specializing in Human-Computer Interaction, currently working at CDW Corporation as a Campus Intern.</h4>
@@ -71,19 +74,38 @@ EMAIL: aabaye@uci.edu
   </div>
   <div class="row" id="row2">
     <div class="col">
-      <h2 class="text-center"><a href="https://resist.network/">resist.network</a></h2>
-      <div class="embed-responsive embed-responsive-16by9">
+      <h1 class="text-center pt-5"><a href="https://resist.network/">resist.network</a></h1>
+      <div class="embed-responsive embed-responsive-16by9 w-90 pb-4">
         <iframe class="embed-responsive-item" src="https://resist.network" title="resist.network"></iframe>
       </div>
     </div>
   </div>
-  <div class="row"></div>
+
   <br>
   <br>
-  <div class="row" id="row3">
-    <div class="col" id="pioneerdj">
+  <div class="container">
+    <h1 class="text-center pt-2 pb-5"><a href="https://imgur.com/a/z0xh1ep">Sleep Tracker App</a></h1>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-1by1 w-65 mx-auto">
+        <video controls class="embed-responsive-item" src="https://i.imgur.com/rqb5pLO.mp4" title="resist.network" autoplay loop></video>
+      </div>
+    </div>
+    <div class="col">
+      <div class="embed-responsive embed-responsive-1by1 w-65 mx-auto">
+        <video controls class="embed-responsive-item" src="https://i.imgur.com/PjmByBa.mp4" title="resist.network" autoplay loop></video>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <div class="row pt-5" id="row3">
+    <div class="col w-90" id="pioneerdj">
       <h2 class="text-center"><a href="https://codepen.io/aabaye/full/yLeQdev">Pioneer DJ Product Website</a></h2>
-      <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-16by9 w-90">
         <iframe class="embed-responsive-item" src="https://codepen.io/aabaye/full/yLeQdev" title="Pioneer DJ Page"></iframe>
       </div>
     </div>
@@ -91,22 +113,8 @@ EMAIL: aabaye@uci.edu
   <div class="row"></div>
   <br>
   <br>
-  <div class="row" id="row4">
-    <div class="col">
-      <h2 class="text-center"><a href="https://github.com/arminabaye/ToDoList">To-Do List Android Application</a></h2>
-      <img class="img-fluid mx-auto d-block" src="https://s8.gifyu.com/images/AddingEditing.gif" alt="todoapp">
-    </div>
-    <div class="col">
-      <h3><a href="https://codepen.io/aabaye/full/rNxRPYO">Javascript Documentation</a></h3>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://codepen.io/aabaye/full/rNxRPYO" title="Javascript Documentation"></iframe>
-      </div>
-    </div>
-  </div>
 </div>
-<br>
-<br>
-
+</body>
 <!-- Footer -->
 <footer class="page-footer font-small indigo" id="footy">
 
@@ -128,6 +136,5 @@ EMAIL: aabaye@uci.edu
     </div>
   </div>
 </footer>
-</body>
 <!-- Footer -->
 </html>

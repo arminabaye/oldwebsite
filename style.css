@@ -176,3 +176,7 @@ footer{
     color: #ffffff;
     background-color: #ffffff;
 }
+.carousel-inner img {
+    margin: auto;
+}
+video:focus { outline:none; }
