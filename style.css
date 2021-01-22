@@ -179,6 +179,9 @@ footer{
 video:focus { outline:none; }
 
 #aboutMe2{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
+#abtme{
+    color: #0064a4;
+}
