@@ -41,9 +41,6 @@ body{
     background-color: #whitesmoke;
 }
 
-#desc, desc2{
-    color: #6AA2B8;
-}
 footer{
     background-color: #FFD200;
 }
@@ -180,3 +177,8 @@ footer{
     margin: auto;
 }
 video:focus { outline:none; }
+
+#aboutMe2{
+    opacity: 0.8;
+}
+
